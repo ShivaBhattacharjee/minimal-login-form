@@ -60,7 +60,7 @@ Overall, this login page was designed with usability in mind. It has all of the 
 ```sh
   git clone https://github.com/ShivaBhattacharjee/login
   
-  cd login
+  cd minimal-login-form
   
   start login.html
   
