@@ -13,7 +13,7 @@
     <br/>
     <br/>
     <br/>
-    <a href="https://shivabhattacharjee.github.io/login/login.html/">View Demo</a>
+    <a href="https://shivabhattacharjee.github.io/minimal-login-form/login.html">View Demo</a>
   </p>
 </p>
 
