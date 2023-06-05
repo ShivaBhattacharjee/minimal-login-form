@@ -32,13 +32,7 @@
 
 ![Screenshot (395)](https://user-images.githubusercontent.com/95211406/227514942-24406878-39a1-46ab-a137-02c77d0849ac.png)
 
- This login page was created using HTML, CSS, and JavaScript. It is designed to be user-friendly and intuitive. The page has a simple layout with a white background and  a vector which is visible in larger screens. The form includes two text boxes for the user to enter their username and password. There is also a checkbox for the user to remember their login information if they choose to do so. 
-
-The page also includes Signup with GOOGLE and Facebook buttons 
-
-The page also includes some basic styling such as font size, font color, and background color. The font color is set at #000000 for contrast against the white background. The background color of the page is set at #FFFFFF for a clean look. 
-
-Overall, this login page was designed with usability in mind. It has all of the necessary elements that are needed for users to easily log in or create an account on your website or application.
+ 
 
 
 ## Built With
