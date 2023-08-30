@@ -62,7 +62,7 @@
 
 ## License
 
-Distributed under the GNU GENERAL PUBLIC LICENSE. See [LICENSE](https://github.com/ShivaBhattacharjee/minimal-login-form/blob/main/LICENSE) for more information.
+Distributed under the GNU GENERAL PUBLIC LICENSE. See [LICENSE](https://github.com/ShivaBhattacharjee/minimal-login-form/blob/main/LICENSE) for more information
 
 ## Authors
 
