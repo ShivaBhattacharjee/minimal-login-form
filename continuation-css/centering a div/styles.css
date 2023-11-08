@@ -1,0 +1,19 @@
+.parent {
+  display: grid; /*using the CSS grid*/
+  place-items: center; /*places content horizontally and vertically*/
+  background: lightblue; /* gives a background of light blue*/
+  width: 400px;
+  height: 400px;
+
+  resize: both; /**makes the parent resizable*/
+  overflow: auto;
+}
+
+.child {
+  padding: 8px; /*gives space between the content and its border*/
+  border-radius: 30px;
+  border: 1px solid red;
+  background-color: lightpink;
+  font-size: 20px; /*1 rem is equal to 8px*/
+  text-align: center;
+}
