@@ -80,6 +80,40 @@ header .logo a{
     display: flex;
     justify-content: center;
 }
+.form-item {
+    position: relative;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.pass-key {
+    padding-right: 30px; /* Adjust according to the width of the image */
+}
+
+.password-toggle {
+    position: absolute;
+    top: 70%;
+    right: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+}
+.remember-forgot {
+    margin-top: 273px;
+    padding: 10px 0; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    position: absolute;  
+    transform: translate(30px, -10px);
+    margin-left: 250px;
+}
+.bg-grey{
+    width: 100%;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    color: #212022a9;
+}
 .login-right img{
     width: 100%;
 }
@@ -306,4 +340,11 @@ button:hover{
     .login-right{
         display: none;
     }
+
+    
+
+    
+   
+
+
 }
