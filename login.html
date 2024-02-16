@@ -46,7 +46,7 @@
     <div class="container" id="home">
         <div class="login-left">
             <div class="login-header">
-                <h1>Welome</h1>
+                <h1>Welcome</h1>
                 <p>Please login to continue......</p>
             </div>
             <form action="" class="login-form" autocomplete="off">
@@ -58,7 +58,8 @@
                     <div class="form-item">
                         <label for="password">Enter Password</span></label>
                         <label for="text"></label>
-                        <input type="password" name="" id="" placeholder="Enter your Password" required class="pass-key">
+                        <input type="password" name="" id="password" placeholder="Enter your Password" required class="pass-key">
+                        <img src="eye-close.png" id="eyeicon" class="password-toggle">
                         <!-- <span class="show">Show</span> -->
                     </div>
                     <div class="form-item">
@@ -67,6 +68,15 @@
                             <label for="rememberMeCheckbox" class="checkboxlabel">Remember Me</label>
                         </div>
                     </div>
+                    <div class="remember-forgot">
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <div class="bg-grey">
+                        <div class="sing-up">Don't have an account? <a href=""class="text-link" id="sign-up" >Sign up</a></div>
+                        <!--<a href="#register" class="link-register">Sign Up</a>-->
+                    </div>
+    
                     <button type="submit">LogIn</button>
                 </div>
                 <div class="login-footer">
@@ -83,6 +93,22 @@
             <img src="images/Data Arranging_Two Color.svg" alt="">
         </div>
     </div>
+
+    <script>
+		let eyeicon = document.getElementById("eyeicon");
+		let password = document.getElementById("password");
+
+		eyeicon.onclick = function() {
+			if (password.type == "password"){
+				password.type = "text"; 
+				eyeicon.src = "eye-open.png";
+			}else{
+				password.type = "password";
+				eyeicon.src = "eye-close.png";
+			}
+		} 
+	</script>
+
     <script src="javascript/index.js"></script>
 </body>
 
